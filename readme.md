@@ -90,7 +90,7 @@ The API uses token-based authentication. After a successful login, you'll receiv
 
 Example:
 ```sh
-curl -H "X-CSRF-Token: your_token" https://api.srmacademia.com/attendance
+curl -H "X-CSRF-Token: your_token" http://localhost:9000/attendance
 ```
 
 ## Error Handling
